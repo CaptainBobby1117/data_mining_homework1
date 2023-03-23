@@ -1,0 +1,1534 @@
+                              repositories  ...    language
+0                      octocat/Hello-World  ...         NaN
+1                EddieHubCommunity/support  ...         NaN
+2                           ethereum/aleth  ...         C++
+3                    localstack/localstack  ...      Python
+4                      education/classroom  ...        Ruby
+...                                    ...  ...         ...
+1047              Tyriar/canvas-astar.dart  ...        Dart
+1048      ankitkumar70777/github-slideshow  ...        HTML
+1049  aitikgupta/interactive_cpu_scheduler  ...      Python
+1050                gwmccubbin/voting_dapp  ...  JavaScript
+1051               gamemann/All_PropHealth  ...  SourcePawn
+
+[1052 rows x 7 columns]
+repositories have freq_counts:iamshaunjp/complete-mongodb             2
+iamshaunjp/flutter-animations           2
+aloisdeniel/dio_retry                   2
+carloscuesta/n26-github-actions-demo    2
+jgthms/css-reference                    2
+                                       ..
+Raz0r/codeql-uboot                      1
+openfoodfacts/hunger-games              1
+defuse/DAWr                             1
+ethereum/alexandria                     1
+aviaryan/alfred-clc                     1
+Name: repositories, Length: 972, dtype: int64
+repositories have basic_stats:count                            1052
+unique                            972
+top       iamshaunjp/complete-mongodb
+freq                                2
+Name: repositories, dtype: object
+repositories have Missing count: 0
+stars_count have freq_counts:0      225
+1       59
+2       49
+5       32
+3       31
+      ... 
+220      1
+218      1
+79       1
+86       1
+217      1
+Name: stars_count, Length: 249, dtype: int64
+stars_count have basic_stats:count    1052.000000
+mean       81.976236
+std       170.403116
+min         0.000000
+25%         1.000000
+50%        12.000000
+75%        65.250000
+max       995.000000
+Name: stars_count, dtype: float64
+stars_count have Missing count: 0
+forks_count have freq_counts:0      260
+1      101
+2       58
+3       36
+4       30
+      ... 
+67       1
+176      1
+174      1
+169      1
+973      1
+Name: forks_count, Length: 200, dtype: int64
+forks_count have basic_stats:count    1052.000000
+mean       53.884981
+std       127.699729
+min         0.000000
+25%         1.000000
+50%         6.000000
+75%        38.250000
+max       973.000000
+Name: forks_count, dtype: float64
+forks_count have Missing count: 0
+issues_count have freq_counts:1      416
+2      164
+3       96
+4       60
+5       41
+      ... 
+42       1
+41       1
+39       1
+30       1
+612      1
+Name: issues_count, Length: 66, dtype: int64
+issues_count have basic_stats:count    1052.000000
+mean        8.656844
+std        32.445154
+min         1.000000
+25%         1.000000
+50%         2.000000
+75%         6.000000
+max       612.000000
+Name: issues_count, dtype: float64
+issues_count have Missing count: 0
+pull_requests have freq_counts:0      617
+1      152
+2       58
+3       43
+7       21
+6       19
+4       18
+5       18
+9       12
+10       9
+8        9
+11       8
+18       8
+12       6
+14       6
+16       5
+22       4
+21       4
+19       3
+13       3
+15       3
+159      2
+27       2
+36       2
+31       2
+29       2
+20       2
+25       2
+30       1
+24       1
+32       1
+23       1
+60       1
+125      1
+17       1
+164      1
+235      1
+316      1
+484      1
+567      1
+Name: pull_requests, dtype: int64
+pull_requests have basic_stats:count    1052.000000
+mean        4.374525
+std        27.913732
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         2.000000
+max       567.000000
+Name: pull_requests, dtype: float64
+pull_requests have Missing count: 0
+contributors have freq_counts:0      502
+2      175
+3       83
+4       38
+5       35
+      ... 
+47       1
+45       1
+44       1
+42       1
+658      1
+Name: contributors, Length: 67, dtype: int64
+contributors have basic_stats:count    1052.000000
+mean        8.364068
+std        37.511807
+min         0.000000
+25%         0.000000
+50%         2.000000
+75%         4.000000
+max       658.000000
+Name: contributors, dtype: float64
+contributors have Missing count: 0
+language have freq_counts:JavaScript          253
+Python              155
+HTML                 72
+Java                 44
+CSS                  37
+TypeScript           37
+Dart                 36
+Jupyter Notebook     29
+C++                  29
+Ruby                 28
+C                    26
+Shell                25
+PHP                  16
+Go                   15
+Rust                 10
+Swift                10
+C#                    8
+Objective-C           8
+Kotlin                7
+Makefile              6
+Jinja                 5
+SCSS                  4
+AutoHotkey            3
+Solidity              3
+Dockerfile            3
+Perl                  3
+CoffeeScript          3
+Hack                  2
+Pawn                  2
+Elixir                2
+Vim Script            2
+CodeQL                2
+PowerShell            2
+Assembly              2
+Vue                   2
+Gherkin               1
+CMake                 1
+QML                   1
+Smarty                1
+Haskell               1
+SourcePawn            1
+Oz                    1
+R                     1
+PureBasic             1
+QMake                 1
+ActionScript          1
+Less                  1
+Roff                  1
+HCL                   1
+Svelte                1
+Cuda                  1
+Name: language, dtype: int64
+language have basic_stats:count            907
+unique            51
+top       JavaScript
+freq             253
+Name: language, dtype: object
+language have Missing count: 145
+<class 'pandas.core.series.Series'>
+<class 'pandas.core.frame.DataFrame'>
+                              repositories  ...    language
+0                      octocat/Hello-World  ...         NaN
+1                EddieHubCommunity/support  ...         NaN
+2                           ethereum/aleth  ...         C++
+3                    localstack/localstack  ...      Python
+4                      education/classroom  ...        Ruby
+...                                    ...  ...         ...
+1047              Tyriar/canvas-astar.dart  ...        Dart
+1048      ankitkumar70777/github-slideshow  ...        HTML
+1049  aitikgupta/interactive_cpu_scheduler  ...      Python
+1050                gwmccubbin/voting_dapp  ...  JavaScript
+1051               gamemann/All_PropHealth  ...  SourcePawn
+
+[1052 rows x 7 columns]
+repositories have freq_counts:kameshsampath/ansible-role-kind    2
+ritwickdey/Cake-Shop               2
+Anurag5086/chatify                 2
+artkirienko/n-th_longest           2
+ritwickdey/expensify-app           2
+                                  ..
+taniarascia/new-moon               1
+vitasha10/vkbot                    1
+Shreeshrii/tess5train-fonts        1
+Raz0r/codeql-uboot                 1
+aviaryan/alfred-clc                1
+Name: repositories, Length: 846, dtype: int64 in the 0 method
+repositories have basic_stats:count                                 907
+unique                                846
+top       kameshsampath/ansible-role-kind
+freq                                    2
+Name: repositories, dtype: object in the 0 method
+repositories have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+stars_count have freq_counts:0      194
+1       53
+2       42
+5       30
+3       27
+      ... 
+169      1
+167      1
+160      1
+156      1
+977      1
+Name: stars_count, Length: 229, dtype: int64 in the 0 method
+stars_count have basic_stats:count    907.000000
+mean      78.863286
+std      165.824674
+min        0.000000
+25%        1.000000
+50%       11.000000
+75%       60.000000
+max      977.000000
+Name: stars_count, dtype: float64 in the 0 method
+stars_count have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+forks_count have freq_counts:0      219
+1       89
+2       51
+3       34
+4       27
+      ... 
+150      1
+149      1
+143      1
+61       1
+973      1
+Name: forks_count, Length: 181, dtype: int64 in the 0 method
+forks_count have basic_stats:count    907.000000
+mean      51.239250
+std      124.920359
+min        0.000000
+25%        1.000000
+50%        6.000000
+75%       35.000000
+max      973.000000
+Name: forks_count, dtype: float64 in the 0 method
+forks_count have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+issues_count have freq_counts:1      357
+2      138
+3       85
+4       54
+5       37
+9       25
+6       23
+7       19
+8       19
+13      12
+14      11
+11      10
+21       9
+16       8
+12       8
+18       7
+19       7
+10       7
+15       5
+23       4
+24       4
+17       3
+22       3
+27       3
+43       3
+34       3
+151      2
+81       2
+57       2
+56       2
+32       2
+20       2
+28       2
+25       2
+31       2
+33       1
+65       1
+290      1
+202      1
+172      1
+164      1
+142      1
+115      1
+106      1
+85       1
+75       1
+61       1
+63       1
+59       1
+26       1
+54       1
+53       1
+51       1
+49       1
+48       1
+45       1
+30       1
+42       1
+41       1
+313      1
+Name: issues_count, dtype: int64 in the 0 method
+issues_count have basic_stats:count    907.000000
+mean       7.868798
+std       22.085010
+min        1.000000
+25%        1.000000
+50%        2.000000
+75%        6.000000
+max      313.000000
+Name: issues_count, dtype: float64 in the 0 method
+issues_count have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+pull_requests have freq_counts:0      535
+1      124
+2       50
+3       38
+6       18
+7       17
+4       15
+5       15
+8        9
+11       8
+18       8
+10       8
+9        7
+14       6
+12       6
+16       5
+21       4
+22       4
+13       3
+15       3
+19       3
+25       2
+29       2
+27       2
+20       2
+159      2
+31       2
+125      1
+36       1
+60       1
+23       1
+32       1
+30       1
+24       1
+17       1
+164      1
+Name: pull_requests, dtype: int64 in the 0 method
+pull_requests have basic_stats:count    907.000000
+mean       3.074972
+std       11.382517
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        2.000000
+max      164.000000
+Name: pull_requests, dtype: float64 in the 0 method
+pull_requests have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+contributors have freq_counts:0      409
+2      158
+3       74
+5       34
+4       32
+      ... 
+44       1
+29       1
+42       1
+30       1
+658      1
+Name: contributors, Length: 64, dtype: int64 in the 0 method
+contributors have basic_stats:count    907.000000
+mean       9.135612
+std       40.154947
+min        0.000000
+25%        0.000000
+50%        2.000000
+75%        5.000000
+max      658.000000
+Name: contributors, dtype: float64 in the 0 method
+contributors have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+language have freq_counts:JavaScript          253
+Python              155
+HTML                 72
+Java                 44
+CSS                  37
+TypeScript           37
+Dart                 36
+Jupyter Notebook     29
+C++                  29
+Ruby                 28
+C                    26
+Shell                25
+PHP                  16
+Go                   15
+Rust                 10
+Swift                10
+C#                    8
+Objective-C           8
+Kotlin                7
+Makefile              6
+Jinja                 5
+SCSS                  4
+AutoHotkey            3
+Solidity              3
+Dockerfile            3
+Perl                  3
+CoffeeScript          3
+Hack                  2
+Pawn                  2
+Elixir                2
+Vim Script            2
+CodeQL                2
+PowerShell            2
+Assembly              2
+Vue                   2
+Gherkin               1
+CMake                 1
+QML                   1
+Smarty                1
+Haskell               1
+SourcePawn            1
+Oz                    1
+R                     1
+PureBasic             1
+QMake                 1
+ActionScript          1
+Less                  1
+Roff                  1
+HCL                   1
+Svelte                1
+Cuda                  1
+Name: language, dtype: int64 in the 0 method
+language have basic_stats:count            907
+unique            51
+top       JavaScript
+freq             253
+Name: language, dtype: object in the 0 method
+language have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+data1 (907, 7)
+<class 'pandas.core.frame.DataFrame'>
+                              repositories  ...    language
+0                      octocat/Hello-World  ...         NaN
+1                EddieHubCommunity/support  ...         NaN
+2                           ethereum/aleth  ...         C++
+3                    localstack/localstack  ...      Python
+4                      education/classroom  ...        Ruby
+...                                    ...  ...         ...
+1047              Tyriar/canvas-astar.dart  ...        Dart
+1048      ankitkumar70777/github-slideshow  ...        HTML
+1049  aitikgupta/interactive_cpu_scheduler  ...      Python
+1050                gwmccubbin/voting_dapp  ...  JavaScript
+1051               gamemann/All_PropHealth  ...  SourcePawn
+
+[1052 rows x 7 columns]
+repositories have freq_counts:iamshaunjp/complete-mongodb             2
+iamshaunjp/flutter-animations           2
+aloisdeniel/dio_retry                   2
+carloscuesta/n26-github-actions-demo    2
+jgthms/css-reference                    2
+                                       ..
+Raz0r/codeql-uboot                      1
+openfoodfacts/hunger-games              1
+defuse/DAWr                             1
+ethereum/alexandria                     1
+aviaryan/alfred-clc                     1
+Name: repositories, Length: 972, dtype: int64 in the 1 method
+repositories have basic_stats:count                            1052
+unique                            972
+top       iamshaunjp/complete-mongodb
+freq                                2
+Name: repositories, dtype: object in the 1 method
+repositories have Missing count: 0 in the 1 method
+<class 'pandas.core.series.Series'>
+stars_count have freq_counts:0      225
+1       59
+2       49
+5       32
+3       31
+      ... 
+220      1
+218      1
+79       1
+86       1
+217      1
+Name: stars_count, Length: 249, dtype: int64 in the 1 method
+stars_count have basic_stats:count    1052.000000
+mean       81.976236
+std       170.403116
+min         0.000000
+25%         1.000000
+50%        12.000000
+75%        65.250000
+max       995.000000
+Name: stars_count, dtype: float64 in the 1 method
+stars_count have Missing count: 0 in the 1 method
+<class 'pandas.core.series.Series'>
+forks_count have freq_counts:0      260
+1      101
+2       58
+3       36
+4       30
+      ... 
+67       1
+176      1
+174      1
+169      1
+973      1
+Name: forks_count, Length: 200, dtype: int64 in the 1 method
+forks_count have basic_stats:count    1052.000000
+mean       53.884981
+std       127.699729
+min         0.000000
+25%         1.000000
+50%         6.000000
+75%        38.250000
+max       973.000000
+Name: forks_count, dtype: float64 in the 1 method
+forks_count have Missing count: 0 in the 1 method
+<class 'pandas.core.series.Series'>
+issues_count have freq_counts:1      416
+2      164
+3       96
+4       60
+5       41
+      ... 
+42       1
+41       1
+39       1
+30       1
+612      1
+Name: issues_count, Length: 66, dtype: int64 in the 1 method
+issues_count have basic_stats:count    1052.000000
+mean        8.656844
+std        32.445154
+min         1.000000
+25%         1.000000
+50%         2.000000
+75%         6.000000
+max       612.000000
+Name: issues_count, dtype: float64 in the 1 method
+issues_count have Missing count: 0 in the 1 method
+<class 'pandas.core.series.Series'>
+pull_requests have freq_counts:0      617
+1      152
+2       58
+3       43
+7       21
+6       19
+4       18
+5       18
+9       12
+10       9
+8        9
+11       8
+18       8
+12       6
+14       6
+16       5
+22       4
+21       4
+19       3
+13       3
+15       3
+159      2
+27       2
+36       2
+31       2
+29       2
+20       2
+25       2
+30       1
+24       1
+32       1
+23       1
+60       1
+125      1
+17       1
+164      1
+235      1
+316      1
+484      1
+567      1
+Name: pull_requests, dtype: int64 in the 1 method
+pull_requests have basic_stats:count    1052.000000
+mean        4.374525
+std        27.913732
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         2.000000
+max       567.000000
+Name: pull_requests, dtype: float64 in the 1 method
+pull_requests have Missing count: 0 in the 1 method
+<class 'pandas.core.series.Series'>
+contributors have freq_counts:0      502
+2      175
+3       83
+4       38
+5       35
+      ... 
+47       1
+45       1
+44       1
+42       1
+658      1
+Name: contributors, Length: 67, dtype: int64 in the 1 method
+contributors have basic_stats:count    1052.000000
+mean        8.364068
+std        37.511807
+min         0.000000
+25%         0.000000
+50%         2.000000
+75%         4.000000
+max       658.000000
+Name: contributors, dtype: float64 in the 1 method
+contributors have Missing count: 0 in the 1 method
+<class 'pandas.core.series.Series'>
+language have freq_counts:JavaScript          253
+Python              155
+HTML                 72
+Java                 44
+CSS                  37
+TypeScript           37
+Dart                 36
+Jupyter Notebook     29
+C++                  29
+Ruby                 28
+C                    26
+Shell                25
+PHP                  16
+Go                   15
+Rust                 10
+Swift                10
+C#                    8
+Objective-C           8
+Kotlin                7
+Makefile              6
+Jinja                 5
+SCSS                  4
+AutoHotkey            3
+Solidity              3
+Dockerfile            3
+Perl                  3
+CoffeeScript          3
+Hack                  2
+Pawn                  2
+Elixir                2
+Vim Script            2
+CodeQL                2
+PowerShell            2
+Assembly              2
+Vue                   2
+Gherkin               1
+CMake                 1
+QML                   1
+Smarty                1
+Haskell               1
+SourcePawn            1
+Oz                    1
+R                     1
+PureBasic             1
+QMake                 1
+ActionScript          1
+Less                  1
+Roff                  1
+HCL                   1
+Svelte                1
+Cuda                  1
+Name: language, dtype: int64 in the 1 method
+language have basic_stats:count            907
+unique            51
+top       JavaScript
+freq             253
+Name: language, dtype: object in the 1 method
+language have Missing count: 145 in the 1 method
+<class 'pandas.core.series.Series'>
+data2 (1052, 7)
+<class 'pandas.core.frame.DataFrame'>
+                              repositories  ...    language
+0                      octocat/Hello-World  ...         NaN
+1                EddieHubCommunity/support  ...         NaN
+2                           ethereum/aleth  ...         C++
+3                    localstack/localstack  ...      Python
+4                      education/classroom  ...        Ruby
+...                                    ...  ...         ...
+1047              Tyriar/canvas-astar.dart  ...        Dart
+1048      ankitkumar70777/github-slideshow  ...        HTML
+1049  aitikgupta/interactive_cpu_scheduler  ...      Python
+1050                gwmccubbin/voting_dapp  ...  JavaScript
+1051               gamemann/All_PropHealth  ...  SourcePawn
+
+[1052 rows x 7 columns]
+correlation_matrix:                stars_count  forks_count  ...  pull_requests  contributors
+stars_count       1.000000     0.250037  ...      -0.004548      0.059866
+forks_count       0.250037     1.000000  ...       0.048063      0.263042
+issues_count      0.060943     0.123204  ...       0.324541      0.382578
+pull_requests    -0.004548     0.048063  ...       1.000000      0.183981
+contributors      0.059866     0.263042  ...       0.183981      1.000000
+
+[5 rows x 5 columns]
+repositories have freq_counts:iamshaunjp/complete-mongodb             2
+iamshaunjp/flutter-animations           2
+aloisdeniel/dio_retry                   2
+carloscuesta/n26-github-actions-demo    2
+jgthms/css-reference                    2
+                                       ..
+Raz0r/codeql-uboot                      1
+openfoodfacts/hunger-games              1
+defuse/DAWr                             1
+ethereum/alexandria                     1
+aviaryan/alfred-clc                     1
+Name: repositories, Length: 972, dtype: int64 in the 2 method
+repositories have basic_stats:count                            1052
+unique                            972
+top       iamshaunjp/complete-mongodb
+freq                                2
+Name: repositories, dtype: object in the 2 method
+repositories have Missing count: 0 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:                stars_count  forks_count  ...  pull_requests  contributors
+stars_count       1.000000     0.250037  ...      -0.004548      0.059866
+forks_count       0.250037     1.000000  ...       0.048063      0.263042
+issues_count      0.060943     0.123204  ...       0.324541      0.382578
+pull_requests    -0.004548     0.048063  ...       1.000000      0.183981
+contributors      0.059866     0.263042  ...       0.183981      1.000000
+
+[5 rows x 5 columns]
+stars_count have freq_counts:0      225
+1       59
+2       49
+5       32
+3       31
+      ... 
+220      1
+218      1
+79       1
+86       1
+217      1
+Name: stars_count, Length: 249, dtype: int64 in the 2 method
+stars_count have basic_stats:count    1052.000000
+mean       81.976236
+std       170.403116
+min         0.000000
+25%         1.000000
+50%        12.000000
+75%        65.250000
+max       995.000000
+Name: stars_count, dtype: float64 in the 2 method
+stars_count have Missing count: 0 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:                stars_count  forks_count  ...  pull_requests  contributors
+stars_count       1.000000     0.250037  ...      -0.004548      0.059866
+forks_count       0.250037     1.000000  ...       0.048063      0.263042
+issues_count      0.060943     0.123204  ...       0.324541      0.382578
+pull_requests    -0.004548     0.048063  ...       1.000000      0.183981
+contributors      0.059866     0.263042  ...       0.183981      1.000000
+
+[5 rows x 5 columns]
+forks_count have freq_counts:0      260
+1      101
+2       58
+3       36
+4       30
+      ... 
+67       1
+176      1
+174      1
+169      1
+973      1
+Name: forks_count, Length: 200, dtype: int64 in the 2 method
+forks_count have basic_stats:count    1052.000000
+mean       53.884981
+std       127.699729
+min         0.000000
+25%         1.000000
+50%         6.000000
+75%        38.250000
+max       973.000000
+Name: forks_count, dtype: float64 in the 2 method
+forks_count have Missing count: 0 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:                stars_count  forks_count  ...  pull_requests  contributors
+stars_count       1.000000     0.250037  ...      -0.004548      0.059866
+forks_count       0.250037     1.000000  ...       0.048063      0.263042
+issues_count      0.060943     0.123204  ...       0.324541      0.382578
+pull_requests    -0.004548     0.048063  ...       1.000000      0.183981
+contributors      0.059866     0.263042  ...       0.183981      1.000000
+
+[5 rows x 5 columns]
+issues_count have freq_counts:1      416
+2      164
+3       96
+4       60
+5       41
+      ... 
+42       1
+41       1
+39       1
+30       1
+612      1
+Name: issues_count, Length: 66, dtype: int64 in the 2 method
+issues_count have basic_stats:count    1052.000000
+mean        8.656844
+std        32.445154
+min         1.000000
+25%         1.000000
+50%         2.000000
+75%         6.000000
+max       612.000000
+Name: issues_count, dtype: float64 in the 2 method
+issues_count have Missing count: 0 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:                stars_count  forks_count  ...  pull_requests  contributors
+stars_count       1.000000     0.250037  ...      -0.004548      0.059866
+forks_count       0.250037     1.000000  ...       0.048063      0.263042
+issues_count      0.060943     0.123204  ...       0.324541      0.382578
+pull_requests    -0.004548     0.048063  ...       1.000000      0.183981
+contributors      0.059866     0.263042  ...       0.183981      1.000000
+
+[5 rows x 5 columns]
+pull_requests have freq_counts:0      617
+1      152
+2       58
+3       43
+7       21
+6       19
+4       18
+5       18
+9       12
+10       9
+8        9
+11       8
+18       8
+12       6
+14       6
+16       5
+22       4
+21       4
+19       3
+13       3
+15       3
+159      2
+27       2
+36       2
+31       2
+29       2
+20       2
+25       2
+30       1
+24       1
+32       1
+23       1
+60       1
+125      1
+17       1
+164      1
+235      1
+316      1
+484      1
+567      1
+Name: pull_requests, dtype: int64 in the 2 method
+pull_requests have basic_stats:count    1052.000000
+mean        4.374525
+std        27.913732
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         2.000000
+max       567.000000
+Name: pull_requests, dtype: float64 in the 2 method
+pull_requests have Missing count: 0 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:                stars_count  forks_count  ...  pull_requests  contributors
+stars_count       1.000000     0.250037  ...      -0.004548      0.059866
+forks_count       0.250037     1.000000  ...       0.048063      0.263042
+issues_count      0.060943     0.123204  ...       0.324541      0.382578
+pull_requests    -0.004548     0.048063  ...       1.000000      0.183981
+contributors      0.059866     0.263042  ...       0.183981      1.000000
+
+[5 rows x 5 columns]
+contributors have freq_counts:0      502
+2      175
+3       83
+4       38
+5       35
+      ... 
+47       1
+45       1
+44       1
+42       1
+658      1
+Name: contributors, Length: 67, dtype: int64 in the 2 method
+contributors have basic_stats:count    1052.000000
+mean        8.364068
+std        37.511807
+min         0.000000
+25%         0.000000
+50%         2.000000
+75%         4.000000
+max       658.000000
+Name: contributors, dtype: float64 in the 2 method
+contributors have Missing count: 0 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:                stars_count  forks_count  ...  pull_requests  contributors
+stars_count       1.000000     0.250037  ...      -0.004548      0.059866
+forks_count       0.250037     1.000000  ...       0.048063      0.263042
+issues_count      0.060943     0.123204  ...       0.324541      0.382578
+pull_requests    -0.004548     0.048063  ...       1.000000      0.183981
+contributors      0.059866     0.263042  ...       0.183981      1.000000
+
+[5 rows x 5 columns]
+language have freq_counts:JavaScript          253
+Python              155
+HTML                 72
+Java                 44
+CSS                  37
+TypeScript           37
+Dart                 36
+Jupyter Notebook     29
+C++                  29
+Ruby                 28
+C                    26
+Shell                25
+PHP                  16
+Go                   15
+Rust                 10
+Swift                10
+C#                    8
+Objective-C           8
+Kotlin                7
+Makefile              6
+Jinja                 5
+SCSS                  4
+AutoHotkey            3
+Solidity              3
+Dockerfile            3
+Perl                  3
+CoffeeScript          3
+Hack                  2
+Pawn                  2
+Elixir                2
+Vim Script            2
+CodeQL                2
+PowerShell            2
+Assembly              2
+Vue                   2
+Gherkin               1
+CMake                 1
+QML                   1
+Smarty                1
+Haskell               1
+SourcePawn            1
+Oz                    1
+R                     1
+PureBasic             1
+QMake                 1
+ActionScript          1
+Less                  1
+Roff                  1
+HCL                   1
+Svelte                1
+Cuda                  1
+Name: language, dtype: int64 in the 2 method
+language have basic_stats:count            907
+unique            51
+top       JavaScript
+freq             253
+Name: language, dtype: object in the 2 method
+language have Missing count: 145 in the 2 method
+<class 'pandas.core.series.Series'>
+data3 (1052, 7)
+<class 'pandas.core.frame.DataFrame'>
+                              repositories  ...    language
+0                      octocat/Hello-World  ...         NaN
+1                EddieHubCommunity/support  ...         NaN
+2                           ethereum/aleth  ...         C++
+3                    localstack/localstack  ...      Python
+4                      education/classroom  ...        Ruby
+...                                    ...  ...         ...
+1047              Tyriar/canvas-astar.dart  ...        Dart
+1048      ankitkumar70777/github-slideshow  ...        HTML
+1049  aitikgupta/interactive_cpu_scheduler  ...      Python
+1050                gwmccubbin/voting_dapp  ...  JavaScript
+1051               gamemann/All_PropHealth  ...  SourcePawn
+
+[1052 rows x 7 columns]
+Index(['repositories', 'stars_count', 'forks_count', 'issues_count',
+       'pull_requests', 'contributors', 'language'],
+      dtype='object')
+                              repositories  ...    language
+0                      octocat/Hello-World  ...         NaN
+1                EddieHubCommunity/support  ...         NaN
+2                           ethereum/aleth  ...         C++
+3                    localstack/localstack  ...      Python
+4                      education/classroom  ...        Ruby
+...                                    ...  ...         ...
+1047              Tyriar/canvas-astar.dart  ...        Dart
+1048      ankitkumar70777/github-slideshow  ...        HTML
+1049  aitikgupta/interactive_cpu_scheduler  ...      Python
+1050                gwmccubbin/voting_dapp  ...  JavaScript
+1051               gamemann/All_PropHealth  ...  SourcePawn
+
+[1052 rows x 7 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0               0            0           612            316             2
+1             271          150           536              6            71
+2               0            0           313             27           154
+3               0            0           290             30           434
+4               0          589           202             22            67
+...           ...          ...           ...            ...           ...
+1047            2            1             1              0             0
+1048            0            0             1              0             8
+1049            0            5             1              1             7
+1050           11            5             1              0             0
+1051            4            3             1              0             0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+Index(['stars_count', 'forks_count', 'issues_count', 'pull_requests',
+       'contributors'],
+      dtype='object')
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0               0            0           612            316             2
+1             271          150           536              6            71
+2               0            0           313             27           154
+3               0            0           290             30           434
+4               0          589           202             22            67
+...           ...          ...           ...            ...           ...
+1047            2            1             1              0             0
+1048            0            0             1              0             8
+1049            0            5             1              1             7
+1050           11            5             1              0             0
+1051            4            3             1              0             0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+stars_count have freq_counts:0.0      225
+1.0       59
+2.0       49
+5.0       32
+3.0       31
+        ... 
+379.0      1
+225.0      1
+260.0      1
+292.0      1
+234.0      1
+Name: stars_count, Length: 249, dtype: int64 in the 3 method
+stars_count have basic_stats:count    1052.000000
+mean       81.976236
+std       170.403116
+min         0.000000
+25%         1.000000
+50%        12.000000
+75%        65.250000
+max       995.000000
+Name: stars_count, dtype: float64 in the 3 method
+stars_count have Missing count: 0 in the 3 method
+<class 'pandas.core.series.Series'>
+Index(['stars_count', 'forks_count', 'issues_count', 'pull_requests',
+       'contributors'],
+      dtype='object')
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0               0            0           612            316             2
+1             271          150           536              6            71
+2               0            0           313             27           154
+3               0            0           290             30           434
+4               0          589           202             22            67
+...           ...          ...           ...            ...           ...
+1047            2            1             1              0             0
+1048            0            0             1              0             8
+1049            0            5             1              1             7
+1050           11            5             1              0             0
+1051            4            3             1              0             0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+forks_count have freq_counts:0.0      260
+1.0      101
+2.0       58
+3.0       36
+4.0       30
+        ... 
+232.0      1
+913.0      1
+112.0      1
+571.0      1
+428.0      1
+Name: forks_count, Length: 200, dtype: int64 in the 3 method
+forks_count have basic_stats:count    1052.000000
+mean       53.884981
+std       127.699729
+min         0.000000
+25%         1.000000
+50%         6.000000
+75%        38.250000
+max       973.000000
+Name: forks_count, dtype: float64 in the 3 method
+forks_count have Missing count: 0 in the 3 method
+<class 'pandas.core.series.Series'>
+Index(['stars_count', 'forks_count', 'issues_count', 'pull_requests',
+       'contributors'],
+      dtype='object')
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0               0            0           612            316             2
+1             271          150           536              6            71
+2               0            0           313             27           154
+3               0            0           290             30           434
+4               0          589           202             22            67
+...           ...          ...           ...            ...           ...
+1047            2            1             1              0             0
+1048            0            0             1              0             8
+1049            0            5             1              1             7
+1050           11            5             1              0             0
+1051            4            3             1              0             0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+issues_count have freq_counts:1.0      416
+2.0      164
+3.0       96
+4.0       60
+5.0       41
+        ... 
+536.0      1
+46.0       1
+117.0      1
+39.0       1
+54.0       1
+Name: issues_count, Length: 66, dtype: int64 in the 3 method
+issues_count have basic_stats:count    1052.000000
+mean        8.656844
+std        32.445154
+min         1.000000
+25%         1.000000
+50%         2.000000
+75%         6.000000
+max       612.000000
+Name: issues_count, dtype: float64 in the 3 method
+issues_count have Missing count: 0 in the 3 method
+<class 'pandas.core.series.Series'>
+Index(['stars_count', 'forks_count', 'issues_count', 'pull_requests',
+       'contributors'],
+      dtype='object')
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0               0            0           612            316             2
+1             271          150           536              6            71
+2               0            0           313             27           154
+3               0            0           290             30           434
+4               0          589           202             22            67
+...           ...          ...           ...            ...           ...
+1047            2            1             1              0             0
+1048            0            0             1              0             8
+1049            0            5             1              1             7
+1050           11            5             1              0             0
+1051            4            3             1              0             0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+pull_requests have freq_counts:0.0      617
+1.0      152
+2.0       58
+3.0       43
+7.0       21
+6.0       19
+4.0       18
+5.0       18
+9.0       12
+8.0        9
+10.0       9
+18.0       8
+11.0       8
+12.0       6
+14.0       6
+16.0       5
+21.0       4
+22.0       4
+19.0       3
+15.0       3
+13.0       3
+20.0       2
+36.0       2
+29.0       2
+25.0       2
+159.0      2
+27.0       2
+31.0       2
+32.0       1
+30.0       1
+484.0      1
+24.0       1
+164.0      1
+316.0      1
+23.0       1
+235.0      1
+17.0       1
+60.0       1
+567.0      1
+125.0      1
+Name: pull_requests, dtype: int64 in the 3 method
+pull_requests have basic_stats:count    1052.000000
+mean        4.374525
+std        27.913732
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         2.000000
+max       567.000000
+Name: pull_requests, dtype: float64 in the 3 method
+pull_requests have Missing count: 0 in the 3 method
+<class 'pandas.core.series.Series'>
+Index(['stars_count', 'forks_count', 'issues_count', 'pull_requests',
+       'contributors'],
+      dtype='object')
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0               0            0           612            316             2
+1             271          150           536              6            71
+2               0            0           313             27           154
+3               0            0           290             30           434
+4               0          589           202             22            67
+...           ...          ...           ...            ...           ...
+1047            2            1             1              0             0
+1048            0            0             1              0             8
+1049            0            5             1              1             7
+1050           11            5             1              0             0
+1051            4            3             1              0             0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+contributors have freq_counts:0.0      502
+2.0      175
+3.0       83
+4.0       38
+5.0       35
+        ... 
+194.0      1
+70.0       1
+112.0      1
+184.0      1
+259.0      1
+Name: contributors, Length: 67, dtype: int64 in the 3 method
+contributors have basic_stats:count    1052.000000
+mean        8.364068
+std        37.511807
+min         0.000000
+25%         0.000000
+50%         2.000000
+75%         4.000000
+max       658.000000
+Name: contributors, dtype: float64 in the 3 method
+contributors have Missing count: 0 in the 3 method
+<class 'pandas.core.series.Series'>
+Index(['stars_count', 'forks_count', 'issues_count', 'pull_requests',
+       'contributors'],
+      dtype='object')
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0               0            0           612            316             2
+1             271          150           536              6            71
+2               0            0           313             27           154
+3               0            0           290             30           434
+4               0          589           202             22            67
+...           ...          ...           ...            ...           ...
+1047            2            1             1              0             0
+1048            0            0             1              0             8
+1049            0            5             1              1             7
+1050           11            5             1              0             0
+1051            4            3             1              0             0
+
+[1052 rows x 5 columns]
+<class 'pandas.core.frame.DataFrame'>
+      stars_count  forks_count  issues_count  pull_requests  contributors
+0             0.0          0.0         612.0          316.0           2.0
+1           271.0        150.0         536.0            6.0          71.0
+2             0.0          0.0         313.0           27.0         154.0
+3             0.0          0.0         290.0           30.0         434.0
+4             0.0        589.0         202.0           22.0          67.0
+...           ...          ...           ...            ...           ...
+1047          2.0          1.0           1.0            0.0           0.0
+1048          0.0          0.0           1.0            0.0           8.0
+1049          0.0          5.0           1.0            1.0           7.0
+1050         11.0          5.0           1.0            0.0           0.0
+1051          4.0          3.0           1.0            0.0           0.0
+
+[1052 rows x 5 columns]
+data4 (1052, 5)
