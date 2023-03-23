@@ -1,0 +1,1916 @@
+       IMDb-rating  ...                                             writer
+0              4.8  ...                                          John Swab
+1              6.4  ...                             John Christian Plummer
+2              5.2  ...                                       Ben Wheatley
+3              8.1  ...                                       Venky Atluri
+4              4.6  ...                                   Rajesh Jayaraman
+...            ...  ...                                                ...
+20543          NaN  ...                                                NaN
+20544          7.7  ...  Rajinder Singh Bedi, Saratchandra Chatterjee, ...
+20545          8.0  ...                                                NaN
+20546          NaN  ...                                                NaN
+20547          NaN  ...                                                NaN
+
+[20548 rows x 14 columns]
+IMDb-rating have freq_counts:6.6    829
+5.0    774
+5.7    747
+6.1    724
+5.5    707
+      ... 
+1.1      2
+9.9      1
+9.5      1
+9.1      1
+1.3      1
+Name: IMDb-rating, Length: 85, dtype: int64
+IMDb-rating have basic_stats:count    19707.000000
+mean         5.762151
+std          1.374041
+min          1.100000
+25%          4.800000
+50%          5.700000
+75%          6.600000
+max          9.900000
+Name: IMDb-rating, dtype: float64
+IMDb-rating have Missing count: 841
+appropriate_for have freq_counts:R                 4384
+Not Rated         2142
+PG-13             1968
+PG                 886
+TV-14              694
+TV-MA              406
+G                  152
+Unrated            132
+TV-PG              115
+TV-G                99
+TV-Y7               45
+TV-Y                25
+Approved             9
+NC-17                4
+TV-Y7-FV             3
+Passed               3
+Drama, Romance       1
+Drama                1
+18+                  1
+MA-17                1
+TV-13                1
+Name: appropriate_for, dtype: int64
+appropriate_for have basic_stats:count     11072
+unique       21
+top           R
+freq       4384
+Name: appropriate_for, dtype: object
+appropriate_for have Missing count: 9476
+director have freq_counts:Venky Atluri       405
+Xavier Manrique    403
+Simone Stock       403
+Neil Jordan        205
+John Swab          205
+                  ... 
+Patricia Riggen      1
+David Stubbs         1
+James Rabbitts       1
+Sachin               1
+Surendra Mohan       1
+Name: director, Length: 9672, dtype: int64
+director have basic_stats:count            18610
+unique            9672
+top       Venky Atluri
+freq               405
+Name: director, dtype: object
+director have Missing count: 1938
+downloads have freq_counts:75        403
+622       212
+378       209
+1,782     187
+466       170
+         ... 
+24,258      1
+22,595      1
+15,259      1
+5,154       1
+15,632      1
+Name: downloads, Length: 10625, dtype: int64
+downloads have basic_stats:count     20547
+unique    10625
+top          75
+freq        403
+Name: downloads, dtype: object
+downloads have Missing count: 1
+id have freq_counts:371744    402
+372090    402
+371877    402
+371671    202
+372092    202
+         ... 
+363124      1
+629         1
+153175      1
+322168      1
+133119      1
+Name: id, Length: 17086, dtype: int64
+id have basic_stats:count     20548.000000
+mean     222351.199776
+std      138422.327931
+min           1.000000
+25%       96122.250000
+50%      264457.500000
+75%      354561.250000
+max      372092.000000
+Name: id, dtype: float64
+id have Missing count: 0
+industry have freq_counts:Hollywood / English    14649
+Bollywood / Indian      2645
+Tollywood               1172
+Anime / Kids            1049
+Wrestling                433
+Punjabi                  332
+Stage shows              129
+Pakistani                 92
+Dub / Dual Audio          45
+3D Movies                  1
+Name: industry, dtype: int64
+industry have basic_stats:count                   20547
+unique                     10
+top       Hollywood / English
+freq                    14649
+Name: industry, dtype: object
+industry have Missing count: 1
+language have freq_counts:English                                       12657
+Hindi                                          2558
+English,Spanish                                 391
+Punjabi                                         310
+English,Hindi                                   304
+                                              ...  
+Mandarin,English,Russian,Mongolian,Spanish        1
+English,Sioux                                     1
+English,Russian,Polish,Tibetan,Mongolian          1
+Arabic,French,English                             1
+English,Somali,Arabic                             1
+Name: language, Length: 1168, dtype: int64
+language have basic_stats:count       20006
+unique       1168
+top       English
+freq        12657
+Name: language, dtype: object
+language have Missing count: 542
+posted_date have freq_counts:13 Feb, 2023    812
+20 Feb, 2023    607
+15 Feb, 2023    607
+10 Feb, 2023    485
+16 Feb, 2023    406
+               ... 
+18 May, 2011      1
+17 May, 1986      1
+19 Feb, 1983      1
+30 Jul, 1981      1
+05 Aug, 1994      1
+Name: posted_date, Length: 4123, dtype: int64
+posted_date have basic_stats:count            20547
+unique            4123
+top       13 Feb, 2023
+freq               812
+Name: posted_date, dtype: object
+posted_date have Missing count: 1
+release_date have freq_counts:Jan 01 1970    962
+Feb 03 2023    616
+Feb 17 2023    607
+Feb 10 2023    410
+Feb 11 2023    402
+              ... 
+Apr 28 1995      1
+Jan 01 1991      1
+Sep 12 2021      1
+Jan 22 1943      1
+Apr 20 1990      1
+Name: release_date, Length: 4886, dtype: int64
+release_date have basic_stats:count           20547
+unique           4886
+top       Jan 01 1970
+freq              962
+Name: release_date, dtype: object
+release_date have Missing count: 1
+run_time have freq_counts:93         652
+88         622
+101        568
+139        454
+95         454
+          ... 
+67 min       1
+2h 3m        1
+2            1
+24min        1
+147 min      1
+Name: run_time, Length: 415, dtype: int64
+run_time have basic_stats:count     18780
+unique      415
+top          93
+freq        652
+Name: run_time, dtype: object
+run_time have Missing count: 1768
+storyline have freq_counts:The life of a young man and his struggles against the privatization of education.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             402
+It follows Kara Robinson as she survives an abduction and ultimately brings down a serial killer.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             402
+Follows\r\n a New York City family hiding out in the Hamptons whose bubble is \r\npopped when a Bloody Mary-swilling, pot-smoking 'Charlie' comes to bring\r\n a lifetime of hurt that might heal them all.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   402
+Doc\r\n facilitates a fragile truce between the Governor and Cartel, trading \r\nprosecutorial leniency for finance. With no more truce, Doc is left to \r\nfend for himself and protect the one untainted thing in his life: his \r\ndaughter, Little Dixie.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 202
+A\r\n young, gay Black man, rejected by his mother and with few options for \r\nhis future, decides to join the Marines, doing whatever it takes to \r\nsucceed in a system that would cast him aside.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        202
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ... 
+Set in a bustling bird city on the edge of the majestic Victoria Falls, "Zambezia" is the story of Kai - a naïve, but high-spirited young falcon who travels to the bird city of "Zambezia" where he discovers the truth about his origins and, in defending the city, learns how to be part of a community.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+Ayaan lives a very wealthy lifestyle with his married brother, Karan and his wife, Anju; a younger sister, Yamini, and brother, Rahul; his mom, and grandma; and runs a garage. One day he meets with beautiful model, Ahana, and falls head over heels in love with her. She forgets her personal diary at his garage, and through this Ayaan woos, wins her heart, and both get married. Ahana soon finds out that despite of Ayaan's wealth, his family is very conservative and tradition-bound. This causes some bitterness between the newly-weds, which gets worse when she becomes pregnant and wants to abort the child. While visiting her mom on their dog's birthday, Ahana has an accident which results in a miscarriage. Ayaan blames her for losing the child, but his mother convinces him and he apologizes. Few months later, Ahana becomes pregnant again, and that's when she finds out that Ayaan had pulled wool over her eyes through her personal diary. Watch what happens when Ahana decides to get drunk on...      1
+A chronicle of Bernie Madoff's Ponzi scheme, which defrauded his clients of billions of dollars.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1
+A naïve and socially repressed June hits the road with her new \r\nboyfriend, Max, on their first romantic trip down the coast. When a \r\nhitchhiker suddenly winds up dead in their RV, June can't deny the \r\noverwhelming thrill and lust for blood.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       1
+When Doug's fiancée is killed in a car accident he retreats to their \r\nisolated farmhouse to recover from his loss, but supernatural \r\noccurrences leave him fearing for his sanity and reveal a secret she \r\ntook with her to the grave.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+Name: storyline, Length: 15748, dtype: int64
+storyline have basic_stats:count                                                 18847
+unique                                                15748
+top       The life of a young man and his struggles agai...
+freq                                                    402
+Name: storyline, dtype: object
+storyline have Missing count: 1701
+title have freq_counts:Who Invited Charlie?                             402
+Vaathi                                           402
+The Girl Who Escaped: The Kara Robinson Story    402
+WWE Smackdown 2023-02-10                         202
+Vacation Home Nightmare                          202
+                                                ... 
+Lemon Tree Passage                                 1
+Love, Repeat                                       1
+Pyaasa Sawan                                       1
+Ping Pong Summer                                   1
+Rupture                                            1
+Name: title, Length: 16572, dtype: int64
+title have basic_stats:count                    20547
+unique                   16572
+top       Who Invited Charlie?
+freq                       402
+Name: title, dtype: object
+title have Missing count: 1
+views have freq_counts:6,259      6
+5,869      5
+4,288      5
+7,726      5
+5,926      5
+          ..
+91,381     1
+20,429     1
+71,221     1
+107,721    1
+68,176     1
+Name: views, Length: 16821, dtype: int64
+views have basic_stats:count     20547
+unique    16821
+top       6,259
+freq          6
+Name: views, dtype: object
+views have Missing count: 1
+writer have freq_counts:Nicholas Schutt                                   403
+Venky Atluri                                      402
+Haley Harris                                      402
+John Swab                                         205
+John F. Hayes                                     202
+                                                 ... 
+Jennifer Mischer, David Wild                        1
+Burnie Burns                                        1
+Jonathan Scanlon, Kimble Rendall, Paul Staheli      1
+Sharis Mohammed                                     1
+Chris Moore                                         1
+Name: writer, Length: 13603, dtype: int64
+writer have basic_stats:count               18356
+unique              13603
+top       Nicholas Schutt
+freq                  403
+Name: writer, dtype: object
+writer have Missing count: 2192
+<class 'pandas.core.series.Series'>
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating  ...                                             writer
+0              4.8  ...                                          John Swab
+1              6.4  ...                             John Christian Plummer
+2              5.2  ...                                       Ben Wheatley
+3              8.1  ...                                       Venky Atluri
+4              4.6  ...                                   Rajesh Jayaraman
+...            ...  ...                                                ...
+20543          NaN  ...                                                NaN
+20544          7.7  ...  Rajinder Singh Bedi, Saratchandra Chatterjee, ...
+20545          8.0  ...                                                NaN
+20546          NaN  ...                                                NaN
+20547          NaN  ...                                                NaN
+
+[20548 rows x 14 columns]
+IMDb-rating have freq_counts:6.6    687
+5.7    497
+6.1    496
+7.1    392
+4.8    371
+      ... 
+9.3      2
+1.1      2
+8.9      1
+9.2      1
+1.4      1
+Name: IMDb-rating, Length: 79, dtype: int64 in the 0 method
+IMDb-rating have basic_stats:count    9902.000000
+mean        5.878489
+std         1.195440
+min         1.100000
+25%         5.200000
+50%         6.000000
+75%         6.675000
+max         9.300000
+Name: IMDb-rating, dtype: float64 in the 0 method
+IMDb-rating have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+appropriate_for have freq_counts:R                 3873
+Not Rated         1938
+PG-13             1787
+PG                 771
+TV-14              664
+TV-MA              384
+Unrated            122
+G                  120
+TV-PG               88
+TV-G                85
+TV-Y7               35
+TV-Y                15
+Approved             7
+NC-17                4
+Passed               3
+TV-Y7-FV             2
+TV-13                1
+MA-17                1
+Drama, Romance       1
+18+                  1
+Name: appropriate_for, dtype: int64 in the 0 method
+appropriate_for have basic_stats:count     9902
+unique      20
+top          R
+freq      3873
+Name: appropriate_for, dtype: object in the 0 method
+appropriate_for have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+director have freq_counts:Simone Stock                                      402
+Neil Jordan                                       205
+John Swab                                         203
+Elegance Bratton                                  202
+Aline Brosh McKenna                               201
+                                                 ... 
+Maclain Nelson, Stephen Shimek                      1
+Roxanne Benjamin, Sofìa Carrillo, Karyn Kusama      1
+Charles Barker                                      1
+Adil El Arbi, Bilall Fallah                         1
+Hiromasa Yonebayashi                                1
+Name: director, Length: 5157, dtype: int64 in the 0 method
+director have basic_stats:count             9902
+unique            5157
+top       Simone Stock
+freq               402
+Name: director, dtype: object in the 0 method
+director have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+downloads have freq_counts:472       120
+284       103
+283       102
+766       100
+2,716      84
+         ... 
+10,744      1
+3,069       1
+30,047      1
+4,572       1
+15,632      1
+Name: downloads, Length: 7068, dtype: int64 in the 0 method
+downloads have basic_stats:count     9902
+unique    7068
+top        472
+freq       120
+Name: downloads, dtype: object in the 0 method
+downloads have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+id have freq_counts:371877    402
+371991    202
+372092    202
+371760    201
+371876    201
+         ... 
+324980      1
+106589      1
+329074      1
+25966       1
+145522      1
+Name: id, Length: 8650, dtype: int64 in the 0 method
+id have basic_stats:count      9902.000000
+mean     199595.375177
+std      138431.948223
+min           1.000000
+25%       81579.500000
+50%      211770.500000
+75%      340104.750000
+max      372092.000000
+Name: id, dtype: float64 in the 0 method
+id have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+industry have freq_counts:Hollywood / English    7880
+Bollywood / Indian      983
+Anime / Kids            634
+Tollywood               320
+Dub / Dual Audio         38
+Punjabi                  36
+Pakistani                 9
+3D Movies                 1
+Wrestling                 1
+Name: industry, dtype: int64 in the 0 method
+industry have basic_stats:count                    9902
+unique                      9
+top       Hollywood / English
+freq                     7880
+Name: industry, dtype: object in the 0 method
+industry have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+language have freq_counts:English                                   6110
+Hindi                                      724
+English,Spanish                            312
+English,Hindi                              270
+English,French                             133
+                                          ... 
+Korean,Hawaiian,English                      1
+Mandarin,Japanese,English,Shanghainese       1
+English,French,Spanish,Italian               1
+English,Samoan,Russian                       1
+Hindi,English,Haryanvi                       1
+Name: language, Length: 909, dtype: int64 in the 0 method
+language have basic_stats:count        9902
+unique        909
+top       English
+freq         6110
+Name: language, dtype: object in the 0 method
+language have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+posted_date have freq_counts:15 Feb, 2023    605
+13 Feb, 2023    205
+17 Feb, 2023    204
+20 Feb, 2023    203
+01 Jan, 1970     25
+               ... 
+01 Sep, 2001      1
+21 May, 2021      1
+08 Mar, 2022      1
+13 Jun, 2015      1
+04 Oct, 2010      1
+Name: posted_date, Length: 3523, dtype: int64 in the 0 method
+posted_date have basic_stats:count             9902
+unique            3523
+top       15 Feb, 2023
+freq               605
+Name: posted_date, dtype: object in the 0 method
+posted_date have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+release_date have freq_counts:Feb 11 2023    402
+Jan 01 1970    266
+Dec 02 2022    209
+Feb 10 2023    204
+Jan 28 2023    203
+              ... 
+Jan 18 2014      1
+Oct 26 2001      1
+Jun 07 2011      1
+Jul 13 2019      1
+Mar 07 2016      1
+Name: release_date, Length: 3465, dtype: int64 in the 0 method
+release_date have basic_stats:count            9902
+unique           3465
+top       Feb 11 2023
+freq              402
+Name: release_date, dtype: object in the 0 method
+release_date have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+run_time have freq_counts:88         563
+95         373
+105        318
+110        315
+90         294
+          ... 
+83 min       1
+125 min      1
+196          1
+21           1
+224          1
+Name: run_time, Length: 298, dtype: int64 in the 0 method
+run_time have basic_stats:count     9902
+unique     298
+top         88
+freq       563
+Name: run_time, dtype: object in the 0 method
+run_time have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+storyline have freq_counts:It follows Kara Robinson as she survives an abduction and ultimately brings down a serial killer.                                                                                                                                                                                                                                                                                                                                                                                                                                                  402
+A\r\n young, gay Black man, rejected by his mother and with few options for \r\nhis future, decides to join the Marines, doing whatever it takes to \r\nsucceed in a system that would cast him aside.                                                                                                                                                                                                                                                                                                                                             202
+Doc\r\n facilitates a fragile truce between the Governor and Cartel, trading \r\nprosecutorial leniency for finance. With no more truce, Doc is left to \r\nfend for himself and protect the one untainted thing in his life: his \r\ndaughter, Little Dixie.                                                                                                                                                                                                                                                                                      202
+In late 1930's Bay City, a brooding, down on his luck detective is hired to find the ex-lover of a glamorous heiress.                                                                                                                                                                                                                                                                                                                                                                                                                              201
+Two\r\n long-distance best friends change each other's lives when she decides \r\nto pursue a lifelong dream and he volunteers to keep an eye on her \r\nteenage son.                                                                                                                                                                                                                                                                                                                                                                              201
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ... 
+The story of two strangers on an odyssey of discovery -- down a path that is ridden with the exquisite pain and joy of falling in love, only they don't realize it. A series of hilarious misadventures trace their bi coastal road journey as they go about fulfilling their last wishes. But then life interrupts, as is its habit; and painful choices must be made. The duo part with the understanding that their days together were a brief interlude of insanity that had to succumb to real life. They part as they met - as strangers.      1
+The daughter of a wealthy real estate broker falls in love with a \r\nyounger man, who introduces her to B&D and S&M. Using her newly \r\nawakened sexual prowess, she finally takes charge of her own life.                                                                                                                                                                                                                                                                                                                                         1
+A vigilante helps victims escape their domestic abusers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             1
+A couple of married guys are always looking at other women. Their wives are fed up with their behavior, and grant them a 'hall pass': a week off their marriage allowing them to do anything. But the guys take their time and their week is almost up. What they don't realize is that at the same time their wives make connections of their own.                                                                                                                                                                                                  1
+Hail Caesar! Follows a day in the life of Eddie Mannix, a Hollywood fixer for Capitol Pictures in the 1950s, who cleans up and solves problems for big names and stars in the industry. But when studio star Baird Whitlock disappears, Mannix has to deal with  than just the fix.                                                                                                                                                                                                                                                                  1
+Name: storyline, Length: 8640, dtype: int64 in the 0 method
+storyline have basic_stats:count                                                  9902
+unique                                                 8640
+top       It follows Kara Robinson as she survives an ab...
+freq                                                    402
+Name: storyline, dtype: object in the 0 method
+storyline have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+title have freq_counts:The Girl Who Escaped: The Kara Robinson Story    402
+Little Dixie                                     202
+The Inspection                                   202
+Your Place or Mine                               201
+Marlowe                                          201
+                                                ... 
+His House                                          1
+The Hive                                           1
+Mississippi Grind                                  1
+The Legend of Bhagat Singh                         1
+Ted 2                                              1
+Name: title, Length: 8482, dtype: int64 in the 0 method
+title have basic_stats:count                                              9902
+unique                                             8482
+top       The Girl Who Escaped: The Kara Robinson Story
+freq                                                402
+Name: title, dtype: object in the 0 method
+title have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+views have freq_counts:6,004      4
+5,921      4
+14,643     3
+7,813      3
+7,631      3
+          ..
+76,454     1
+316,060    1
+4,215      1
+6,309      1
+18,667     1
+Name: views, Length: 9245, dtype: int64 in the 0 method
+views have basic_stats:count      9902
+unique     9245
+top       6,004
+freq          4
+Name: views, dtype: object in the 0 method
+views have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+writer have freq_counts:Haley Harris                                             402
+John Swab                                                203
+Aline Brosh McKenna                                      202
+Elegance Bratton                                         202
+William Monahan, John Banville, Raymond Chandler         201
+                                                        ... 
+John Argall, Owen Black                                    1
+Praveen Bhardwaj, Dev Kohli, Mahesh Manjrekar              1
+Michele Mulroney, Kieran Mulroney, Arthur Conan Doyle      1
+Neal Purvis, Robert Wade, Paul Haggis                      1
+Denise Schooler                                            1
+Name: writer, Length: 7805, dtype: int64 in the 0 method
+writer have basic_stats:count             9902
+unique            7805
+top       Haley Harris
+freq               402
+Name: writer, dtype: object in the 0 method
+writer have Missing count: 0 in the 0 method
+<class 'pandas.core.series.Series'>
+data1 (9902, 14)
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating  ...                                             writer
+0              4.8  ...                                          John Swab
+1              6.4  ...                             John Christian Plummer
+2              5.2  ...                                       Ben Wheatley
+3              8.1  ...                                       Venky Atluri
+4              4.6  ...                                   Rajesh Jayaraman
+...            ...  ...                                                ...
+20543          NaN  ...                                                NaN
+20544          7.7  ...  Rajinder Singh Bedi, Saratchandra Chatterjee, ...
+20545          8.0  ...                                                NaN
+20546          NaN  ...                                                NaN
+20547          NaN  ...                                                NaN
+
+[20548 rows x 14 columns]
+IMDb-rating have freq_counts:6.6    829
+5.0    774
+5.7    747
+6.1    724
+5.5    707
+      ... 
+1.1      2
+9.9      1
+9.5      1
+9.1      1
+1.3      1
+Name: IMDb-rating, Length: 85, dtype: int64 in the 1 method
+IMDb-rating have basic_stats:count    19707.000000
+mean         5.762151
+std          1.374041
+min          1.100000
+25%          4.800000
+50%          5.700000
+75%          6.600000
+max          9.900000
+Name: IMDb-rating, dtype: float64 in the 1 method
+IMDb-rating have Missing count: 841 in the 1 method
+<class 'pandas.core.series.Series'>
+appropriate_for have freq_counts:R                 4384
+Not Rated         2142
+PG-13             1968
+PG                 886
+TV-14              694
+TV-MA              406
+G                  152
+Unrated            132
+TV-PG              115
+TV-G                99
+TV-Y7               45
+TV-Y                25
+Approved             9
+NC-17                4
+TV-Y7-FV             3
+Passed               3
+Drama, Romance       1
+Drama                1
+18+                  1
+MA-17                1
+TV-13                1
+Name: appropriate_for, dtype: int64 in the 1 method
+appropriate_for have basic_stats:count     11072
+unique       21
+top           R
+freq       4384
+Name: appropriate_for, dtype: object in the 1 method
+appropriate_for have Missing count: 9476 in the 1 method
+<class 'pandas.core.series.Series'>
+director have freq_counts:Venky Atluri       405
+Xavier Manrique    403
+Simone Stock       403
+Neil Jordan        205
+John Swab          205
+                  ... 
+Patricia Riggen      1
+David Stubbs         1
+James Rabbitts       1
+Sachin               1
+Surendra Mohan       1
+Name: director, Length: 9672, dtype: int64 in the 1 method
+director have basic_stats:count            18610
+unique            9672
+top       Venky Atluri
+freq               405
+Name: director, dtype: object in the 1 method
+director have Missing count: 1938 in the 1 method
+<class 'pandas.core.series.Series'>
+downloads have freq_counts:75        403
+622       212
+378       209
+1,782     187
+466       170
+         ... 
+24,258      1
+22,595      1
+15,259      1
+5,154       1
+15,632      1
+Name: downloads, Length: 10625, dtype: int64 in the 1 method
+downloads have basic_stats:count     20547
+unique    10625
+top          75
+freq        403
+Name: downloads, dtype: object in the 1 method
+downloads have Missing count: 1 in the 1 method
+<class 'pandas.core.series.Series'>
+id have freq_counts:371744    402
+372090    402
+371877    402
+371671    202
+372092    202
+         ... 
+363124      1
+629         1
+153175      1
+322168      1
+133119      1
+Name: id, Length: 17086, dtype: int64 in the 1 method
+id have basic_stats:count     20548.000000
+mean     222351.199776
+std      138422.327931
+min           1.000000
+25%       96122.250000
+50%      264457.500000
+75%      354561.250000
+max      372092.000000
+Name: id, dtype: float64 in the 1 method
+id have Missing count: 0 in the 1 method
+<class 'pandas.core.series.Series'>
+industry have freq_counts:Hollywood / English    14649
+Bollywood / Indian      2645
+Tollywood               1172
+Anime / Kids            1049
+Wrestling                433
+Punjabi                  332
+Stage shows              129
+Pakistani                 92
+Dub / Dual Audio          45
+3D Movies                  1
+Name: industry, dtype: int64 in the 1 method
+industry have basic_stats:count                   20547
+unique                     10
+top       Hollywood / English
+freq                    14649
+Name: industry, dtype: object in the 1 method
+industry have Missing count: 1 in the 1 method
+<class 'pandas.core.series.Series'>
+language have freq_counts:English                                       12657
+Hindi                                          2558
+English,Spanish                                 391
+Punjabi                                         310
+English,Hindi                                   304
+                                              ...  
+Mandarin,English,Russian,Mongolian,Spanish        1
+English,Sioux                                     1
+English,Russian,Polish,Tibetan,Mongolian          1
+Arabic,French,English                             1
+English,Somali,Arabic                             1
+Name: language, Length: 1168, dtype: int64 in the 1 method
+language have basic_stats:count       20006
+unique       1168
+top       English
+freq        12657
+Name: language, dtype: object in the 1 method
+language have Missing count: 542 in the 1 method
+<class 'pandas.core.series.Series'>
+posted_date have freq_counts:13 Feb, 2023    812
+20 Feb, 2023    607
+15 Feb, 2023    607
+10 Feb, 2023    485
+16 Feb, 2023    406
+               ... 
+18 May, 2011      1
+17 May, 1986      1
+19 Feb, 1983      1
+30 Jul, 1981      1
+05 Aug, 1994      1
+Name: posted_date, Length: 4123, dtype: int64 in the 1 method
+posted_date have basic_stats:count            20547
+unique            4123
+top       13 Feb, 2023
+freq               812
+Name: posted_date, dtype: object in the 1 method
+posted_date have Missing count: 1 in the 1 method
+<class 'pandas.core.series.Series'>
+release_date have freq_counts:Jan 01 1970    962
+Feb 03 2023    616
+Feb 17 2023    607
+Feb 10 2023    410
+Feb 11 2023    402
+              ... 
+Apr 28 1995      1
+Jan 01 1991      1
+Sep 12 2021      1
+Jan 22 1943      1
+Apr 20 1990      1
+Name: release_date, Length: 4886, dtype: int64 in the 1 method
+release_date have basic_stats:count           20547
+unique           4886
+top       Jan 01 1970
+freq              962
+Name: release_date, dtype: object in the 1 method
+release_date have Missing count: 1 in the 1 method
+<class 'pandas.core.series.Series'>
+run_time have freq_counts:93         652
+88         622
+101        568
+139        454
+95         454
+          ... 
+67 min       1
+2h 3m        1
+2            1
+24min        1
+147 min      1
+Name: run_time, Length: 415, dtype: int64 in the 1 method
+run_time have basic_stats:count     18780
+unique      415
+top          93
+freq        652
+Name: run_time, dtype: object in the 1 method
+run_time have Missing count: 1768 in the 1 method
+<class 'pandas.core.series.Series'>
+storyline have freq_counts:The life of a young man and his struggles against the privatization of education.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             402
+It follows Kara Robinson as she survives an abduction and ultimately brings down a serial killer.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             402
+Follows\r\n a New York City family hiding out in the Hamptons whose bubble is \r\npopped when a Bloody Mary-swilling, pot-smoking 'Charlie' comes to bring\r\n a lifetime of hurt that might heal them all.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   402
+Doc\r\n facilitates a fragile truce between the Governor and Cartel, trading \r\nprosecutorial leniency for finance. With no more truce, Doc is left to \r\nfend for himself and protect the one untainted thing in his life: his \r\ndaughter, Little Dixie.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 202
+A\r\n young, gay Black man, rejected by his mother and with few options for \r\nhis future, decides to join the Marines, doing whatever it takes to \r\nsucceed in a system that would cast him aside.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        202
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ... 
+Set in a bustling bird city on the edge of the majestic Victoria Falls, "Zambezia" is the story of Kai - a naïve, but high-spirited young falcon who travels to the bird city of "Zambezia" where he discovers the truth about his origins and, in defending the city, learns how to be part of a community.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+Ayaan lives a very wealthy lifestyle with his married brother, Karan and his wife, Anju; a younger sister, Yamini, and brother, Rahul; his mom, and grandma; and runs a garage. One day he meets with beautiful model, Ahana, and falls head over heels in love with her. She forgets her personal diary at his garage, and through this Ayaan woos, wins her heart, and both get married. Ahana soon finds out that despite of Ayaan's wealth, his family is very conservative and tradition-bound. This causes some bitterness between the newly-weds, which gets worse when she becomes pregnant and wants to abort the child. While visiting her mom on their dog's birthday, Ahana has an accident which results in a miscarriage. Ayaan blames her for losing the child, but his mother convinces him and he apologizes. Few months later, Ahana becomes pregnant again, and that's when she finds out that Ayaan had pulled wool over her eyes through her personal diary. Watch what happens when Ahana decides to get drunk on...      1
+A chronicle of Bernie Madoff's Ponzi scheme, which defrauded his clients of billions of dollars.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1
+A naïve and socially repressed June hits the road with her new \r\nboyfriend, Max, on their first romantic trip down the coast. When a \r\nhitchhiker suddenly winds up dead in their RV, June can't deny the \r\noverwhelming thrill and lust for blood.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       1
+When Doug's fiancée is killed in a car accident he retreats to their \r\nisolated farmhouse to recover from his loss, but supernatural \r\noccurrences leave him fearing for his sanity and reveal a secret she \r\ntook with her to the grave.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+Name: storyline, Length: 15748, dtype: int64 in the 1 method
+storyline have basic_stats:count                                                 18847
+unique                                                15748
+top       The life of a young man and his struggles agai...
+freq                                                    402
+Name: storyline, dtype: object in the 1 method
+storyline have Missing count: 1701 in the 1 method
+<class 'pandas.core.series.Series'>
+title have freq_counts:Who Invited Charlie?                             402
+Vaathi                                           402
+The Girl Who Escaped: The Kara Robinson Story    402
+WWE Smackdown 2023-02-10                         202
+Vacation Home Nightmare                          202
+                                                ... 
+Lemon Tree Passage                                 1
+Love, Repeat                                       1
+Pyaasa Sawan                                       1
+Ping Pong Summer                                   1
+Rupture                                            1
+Name: title, Length: 16572, dtype: int64 in the 1 method
+title have basic_stats:count                    20547
+unique                   16572
+top       Who Invited Charlie?
+freq                       402
+Name: title, dtype: object in the 1 method
+title have Missing count: 1 in the 1 method
+<class 'pandas.core.series.Series'>
+views have freq_counts:6,259      6
+5,869      5
+4,288      5
+7,726      5
+5,926      5
+          ..
+91,381     1
+20,429     1
+71,221     1
+107,721    1
+68,176     1
+Name: views, Length: 16821, dtype: int64 in the 1 method
+views have basic_stats:count     20547
+unique    16821
+top       6,259
+freq          6
+Name: views, dtype: object in the 1 method
+views have Missing count: 1 in the 1 method
+<class 'pandas.core.series.Series'>
+writer have freq_counts:Nicholas Schutt                                   403
+Venky Atluri                                      402
+Haley Harris                                      402
+John Swab                                         205
+John F. Hayes                                     202
+                                                 ... 
+Jennifer Mischer, David Wild                        1
+Burnie Burns                                        1
+Jonathan Scanlon, Kimble Rendall, Paul Staheli      1
+Sharis Mohammed                                     1
+Chris Moore                                         1
+Name: writer, Length: 13603, dtype: int64 in the 1 method
+writer have basic_stats:count               18356
+unique              13603
+top       Nicholas Schutt
+freq                  403
+Name: writer, dtype: object in the 1 method
+writer have Missing count: 2192 in the 1 method
+<class 'pandas.core.series.Series'>
+data2 (20548, 14)
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating  ...                                             writer
+0              4.8  ...                                          John Swab
+1              6.4  ...                             John Christian Plummer
+2              5.2  ...                                       Ben Wheatley
+3              8.1  ...                                       Venky Atluri
+4              4.6  ...                                   Rajesh Jayaraman
+...            ...  ...                                                ...
+20543          NaN  ...                                                NaN
+20544          7.7  ...  Rajinder Singh Bedi, Saratchandra Chatterjee, ...
+20545          8.0  ...                                                NaN
+20546          NaN  ...                                                NaN
+20547          NaN  ...                                                NaN
+
+[20548 rows x 14 columns]
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.048087
+id              0.048087  1.000000
+IMDb-rating have freq_counts:5.762151    841
+6.600000    829
+5.000000    774
+5.700000    747
+6.100000    724
+           ... 
+1.500000      2
+9.900000      1
+9.500000      1
+1.300000      1
+9.100000      1
+Name: IMDb-rating, Length: 86, dtype: int64 in the 2 method
+IMDb-rating have basic_stats:count    20548.000000
+mean         5.762151
+std          1.345627
+min          1.100000
+25%          4.900000
+50%          5.762151
+75%          6.600000
+max          9.900000
+Name: IMDb-rating, dtype: float64 in the 2 method
+IMDb-rating have Missing count: 0 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+appropriate_for have freq_counts:R                 4384
+Not Rated         2142
+PG-13             1968
+PG                 886
+TV-14              694
+TV-MA              406
+G                  152
+Unrated            132
+TV-PG              115
+TV-G                99
+TV-Y7               45
+TV-Y                25
+Approved             9
+NC-17                4
+TV-Y7-FV             3
+Passed               3
+Drama, Romance       1
+Drama                1
+18+                  1
+MA-17                1
+TV-13                1
+Name: appropriate_for, dtype: int64 in the 2 method
+appropriate_for have basic_stats:count     11072
+unique       21
+top           R
+freq       4384
+Name: appropriate_for, dtype: object in the 2 method
+appropriate_for have Missing count: 9476 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+director have freq_counts:Venky Atluri       405
+Xavier Manrique    403
+Simone Stock       403
+Neil Jordan        205
+John Swab          205
+                  ... 
+Patricia Riggen      1
+David Stubbs         1
+James Rabbitts       1
+Sachin               1
+Surendra Mohan       1
+Name: director, Length: 9672, dtype: int64 in the 2 method
+director have basic_stats:count            18610
+unique            9672
+top       Venky Atluri
+freq               405
+Name: director, dtype: object in the 2 method
+director have Missing count: 1938 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+downloads have freq_counts:75        403
+622       212
+378       209
+1,782     187
+466       170
+         ... 
+24,258      1
+22,595      1
+15,259      1
+5,154       1
+15,632      1
+Name: downloads, Length: 10625, dtype: int64 in the 2 method
+downloads have basic_stats:count     20547
+unique    10625
+top          75
+freq        403
+Name: downloads, dtype: object in the 2 method
+downloads have Missing count: 1 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+id have freq_counts:371744    402
+372090    402
+371877    402
+371671    202
+372092    202
+         ... 
+363124      1
+629         1
+153175      1
+322168      1
+133119      1
+Name: id, Length: 17086, dtype: int64 in the 2 method
+id have basic_stats:count     20548.000000
+mean     222351.199776
+std      138422.327931
+min           1.000000
+25%       96122.250000
+50%      264457.500000
+75%      354561.250000
+max      372092.000000
+Name: id, dtype: float64 in the 2 method
+id have Missing count: 0 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+industry have freq_counts:Hollywood / English    14649
+Bollywood / Indian      2645
+Tollywood               1172
+Anime / Kids            1049
+Wrestling                433
+Punjabi                  332
+Stage shows              129
+Pakistani                 92
+Dub / Dual Audio          45
+3D Movies                  1
+Name: industry, dtype: int64 in the 2 method
+industry have basic_stats:count                   20547
+unique                     10
+top       Hollywood / English
+freq                    14649
+Name: industry, dtype: object in the 2 method
+industry have Missing count: 1 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+language have freq_counts:English                                       12657
+Hindi                                          2558
+English,Spanish                                 391
+Punjabi                                         310
+English,Hindi                                   304
+                                              ...  
+Mandarin,English,Russian,Mongolian,Spanish        1
+English,Sioux                                     1
+English,Russian,Polish,Tibetan,Mongolian          1
+Arabic,French,English                             1
+English,Somali,Arabic                             1
+Name: language, Length: 1168, dtype: int64 in the 2 method
+language have basic_stats:count       20006
+unique       1168
+top       English
+freq        12657
+Name: language, dtype: object in the 2 method
+language have Missing count: 542 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+posted_date have freq_counts:13 Feb, 2023    812
+20 Feb, 2023    607
+15 Feb, 2023    607
+10 Feb, 2023    485
+16 Feb, 2023    406
+               ... 
+18 May, 2011      1
+17 May, 1986      1
+19 Feb, 1983      1
+30 Jul, 1981      1
+05 Aug, 1994      1
+Name: posted_date, Length: 4123, dtype: int64 in the 2 method
+posted_date have basic_stats:count            20547
+unique            4123
+top       13 Feb, 2023
+freq               812
+Name: posted_date, dtype: object in the 2 method
+posted_date have Missing count: 1 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+release_date have freq_counts:Jan 01 1970    962
+Feb 03 2023    616
+Feb 17 2023    607
+Feb 10 2023    410
+Feb 11 2023    402
+              ... 
+Apr 28 1995      1
+Jan 01 1991      1
+Sep 12 2021      1
+Jan 22 1943      1
+Apr 20 1990      1
+Name: release_date, Length: 4886, dtype: int64 in the 2 method
+release_date have basic_stats:count           20547
+unique           4886
+top       Jan 01 1970
+freq              962
+Name: release_date, dtype: object in the 2 method
+release_date have Missing count: 1 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+run_time have freq_counts:93         652
+88         622
+101        568
+139        454
+95         454
+          ... 
+67 min       1
+2h 3m        1
+2            1
+24min        1
+147 min      1
+Name: run_time, Length: 415, dtype: int64 in the 2 method
+run_time have basic_stats:count     18780
+unique      415
+top          93
+freq        652
+Name: run_time, dtype: object in the 2 method
+run_time have Missing count: 1768 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+storyline have freq_counts:The life of a young man and his struggles against the privatization of education.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             402
+It follows Kara Robinson as she survives an abduction and ultimately brings down a serial killer.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             402
+Follows\r\n a New York City family hiding out in the Hamptons whose bubble is \r\npopped when a Bloody Mary-swilling, pot-smoking 'Charlie' comes to bring\r\n a lifetime of hurt that might heal them all.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   402
+Doc\r\n facilitates a fragile truce between the Governor and Cartel, trading \r\nprosecutorial leniency for finance. With no more truce, Doc is left to \r\nfend for himself and protect the one untainted thing in his life: his \r\ndaughter, Little Dixie.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 202
+A\r\n young, gay Black man, rejected by his mother and with few options for \r\nhis future, decides to join the Marines, doing whatever it takes to \r\nsucceed in a system that would cast him aside.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        202
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ... 
+Set in a bustling bird city on the edge of the majestic Victoria Falls, "Zambezia" is the story of Kai - a naïve, but high-spirited young falcon who travels to the bird city of "Zambezia" where he discovers the truth about his origins and, in defending the city, learns how to be part of a community.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+Ayaan lives a very wealthy lifestyle with his married brother, Karan and his wife, Anju; a younger sister, Yamini, and brother, Rahul; his mom, and grandma; and runs a garage. One day he meets with beautiful model, Ahana, and falls head over heels in love with her. She forgets her personal diary at his garage, and through this Ayaan woos, wins her heart, and both get married. Ahana soon finds out that despite of Ayaan's wealth, his family is very conservative and tradition-bound. This causes some bitterness between the newly-weds, which gets worse when she becomes pregnant and wants to abort the child. While visiting her mom on their dog's birthday, Ahana has an accident which results in a miscarriage. Ayaan blames her for losing the child, but his mother convinces him and he apologizes. Few months later, Ahana becomes pregnant again, and that's when she finds out that Ayaan had pulled wool over her eyes through her personal diary. Watch what happens when Ahana decides to get drunk on...      1
+A chronicle of Bernie Madoff's Ponzi scheme, which defrauded his clients of billions of dollars.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1
+A naïve and socially repressed June hits the road with her new \r\nboyfriend, Max, on their first romantic trip down the coast. When a \r\nhitchhiker suddenly winds up dead in their RV, June can't deny the \r\noverwhelming thrill and lust for blood.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       1
+When Doug's fiancée is killed in a car accident he retreats to their \r\nisolated farmhouse to recover from his loss, but supernatural \r\noccurrences leave him fearing for his sanity and reveal a secret she \r\ntook with her to the grave.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+Name: storyline, Length: 15748, dtype: int64 in the 2 method
+storyline have basic_stats:count                                                 18847
+unique                                                15748
+top       The life of a young man and his struggles agai...
+freq                                                    402
+Name: storyline, dtype: object in the 2 method
+storyline have Missing count: 1701 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+title have freq_counts:Who Invited Charlie?                             402
+Vaathi                                           402
+The Girl Who Escaped: The Kara Robinson Story    402
+WWE Smackdown 2023-02-10                         202
+Vacation Home Nightmare                          202
+                                                ... 
+Lemon Tree Passage                                 1
+Love, Repeat                                       1
+Pyaasa Sawan                                       1
+Ping Pong Summer                                   1
+Rupture                                            1
+Name: title, Length: 16572, dtype: int64 in the 2 method
+title have basic_stats:count                    20547
+unique                   16572
+top       Who Invited Charlie?
+freq                       402
+Name: title, dtype: object in the 2 method
+title have Missing count: 1 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+views have freq_counts:6,259      6
+5,869      5
+4,288      5
+7,726      5
+5,926      5
+          ..
+91,381     1
+20,429     1
+71,221     1
+107,721    1
+68,176     1
+Name: views, Length: 16821, dtype: int64 in the 2 method
+views have basic_stats:count     20547
+unique    16821
+top       6,259
+freq          6
+Name: views, dtype: object in the 2 method
+views have Missing count: 1 in the 2 method
+<class 'pandas.core.series.Series'>
+correlation_matrix:              IMDb-rating        id
+IMDb-rating     1.000000  0.046754
+id              0.046754  1.000000
+writer have freq_counts:Nicholas Schutt                                   403
+Venky Atluri                                      402
+Haley Harris                                      402
+John Swab                                         205
+John F. Hayes                                     202
+                                                 ... 
+Jennifer Mischer, David Wild                        1
+Burnie Burns                                        1
+Jonathan Scanlon, Kimble Rendall, Paul Staheli      1
+Sharis Mohammed                                     1
+Chris Moore                                         1
+Name: writer, Length: 13603, dtype: int64 in the 2 method
+writer have basic_stats:count               18356
+unique              13603
+top       Nicholas Schutt
+freq                  403
+Name: writer, dtype: object in the 2 method
+writer have Missing count: 2192 in the 2 method
+<class 'pandas.core.series.Series'>
+data3 (20548, 14)
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating  ...                                             writer
+0              4.8  ...                                          John Swab
+1              6.4  ...                             John Christian Plummer
+2              5.2  ...                                       Ben Wheatley
+3              8.1  ...                                       Venky Atluri
+4              4.6  ...                                   Rajesh Jayaraman
+...            ...  ...                                                ...
+20543          NaN  ...                                                NaN
+20544          7.7  ...  Rajinder Singh Bedi, Saratchandra Chatterjee, ...
+20545          8.0  ...                                                NaN
+20546          NaN  ...                                                NaN
+20547          NaN  ...                                                NaN
+
+[20548 rows x 14 columns]
+Index(['IMDb-rating', 'appropriate_for', 'director', 'downloads', 'id',
+       'industry', 'language', 'posted_date', 'release_date', 'run_time',
+       'storyline', 'title', 'views', 'writer'],
+      dtype='object')
+       IMDb-rating  ...                                             writer
+0              4.8  ...                                          John Swab
+1              6.4  ...                             John Christian Plummer
+2              5.2  ...                                       Ben Wheatley
+3              8.1  ...                                       Venky Atluri
+4              4.6  ...                                   Rajesh Jayaraman
+...            ...  ...                                                ...
+20543          NaN  ...                                                NaN
+20544          7.7  ...  Rajinder Singh Bedi, Saratchandra Chatterjee, ...
+20545          8.0  ...                                                NaN
+20546          NaN  ...                                                NaN
+20547          NaN  ...                                                NaN
+
+[20548 rows x 14 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+IMDb-rating have freq_counts:5.762151    841
+6.600000    829
+5.000000    774
+5.700000    747
+6.100000    724
+           ... 
+1.500000      2
+9.900000      1
+9.500000      1
+1.300000      1
+9.100000      1
+Name: IMDb-rating, Length: 86, dtype: int64 in the 3 method
+IMDb-rating have basic_stats:count    20548.000000
+mean         5.762151
+std          1.345627
+min          1.100000
+25%          4.900000
+50%          5.762151
+75%          6.600000
+max          9.900000
+Name: IMDb-rating, dtype: float64 in the 3 method
+IMDb-rating have Missing count: 0 in the 3 method
+<class 'pandas.core.series.Series'>
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+id have freq_counts:371744.0    402
+372090.0    402
+371877.0    402
+371671.0    202
+372092.0    202
+           ... 
+279844.0      1
+285335.0      1
+369260.0      1
+362803.0      1
+130369.0      1
+Name: id, Length: 17086, dtype: int64 in the 3 method
+id have basic_stats:count     20548.000000
+mean     222351.199776
+std      138422.327931
+min           1.000000
+25%       96122.250000
+50%      264457.500000
+75%      354561.250000
+max      372092.000000
+Name: id, dtype: float64 in the 3 method
+id have Missing count: 0 in the 3 method
+<class 'pandas.core.series.Series'>
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+Index(['IMDb-rating', 'id'], dtype='object')
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating      id
+0         4.800000  372092
+1         6.400000  372091
+2         5.200000  343381
+3         8.100000  372090
+4         4.600000  372089
+...            ...     ...
+20543     5.762151   28957
+20544     7.700000   28958
+20545     8.000000   30459
+20546     5.762151  371669
+20547     5.762151  371816
+
+[20548 rows x 2 columns]
+<class 'pandas.core.frame.DataFrame'>
+       IMDb-rating        id
+0         4.800000  372092.0
+1         6.400000  372091.0
+2         5.200000  343381.0
+3         8.100000  372090.0
+4         4.600000  372089.0
+...            ...       ...
+20543     5.762151   28957.0
+20544     7.700000   28958.0
+20545     8.000000   30459.0
+20546     5.762151  371669.0
+20547     5.762151  371816.0
+
+[20548 rows x 2 columns]
+data4 (20548, 2)
